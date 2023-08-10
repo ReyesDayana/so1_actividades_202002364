@@ -5,17 +5,17 @@
 # Parte 1: Gestión de Usuarios
 ## 1.Creación de Usuarios:
 ### Comando
-sudo useradd usuario1
-sudo useradd usuario2
-sudo useradd usuario3
+sudo useradd usuario1  
+sudo useradd usuario2  
+sudo useradd usuario3  
 ### Resultado
 Despues de ejecutar el comando por primera vez fue pedida la contraseña de mi usuario y despues de ingresar la contraseña continuo sin problema.
 
 ## 2.Asignación de Contraseñas:
 ### Comando
-sudo passwd usuario1
-sudo passwd usuario2
-sudo passwd usuario3
+sudo passwd usuario1  
+sudo passwd usuario2  
+sudo passwd usuario3  
 ### Resultado
 Al ejecutar el comando requeria la contraseña para el usuario, volver a escribir la contraseña para confirmar y por ultimo aparecia este mensaje:
 passwd: contraseña actualizada correctamente
