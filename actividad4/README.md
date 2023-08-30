@@ -30,9 +30,15 @@ Se inicia el servicio "actividad4"
 ```bash
 sudo systemctl start actividad4      
 ```  
-![permiso](imagenes/start.jpeg) 
+![permiso](imagenes/start.jpeg)  
 Se verifica el estado del servicio para asegurar que esté en ejecución  
 ```bash
 sudo systemctl status actividad4        
 ```  
-![permiso](imagenes/status.jpeg) 
+![permiso](imagenes/status.jpeg)  
+
+Para detener el servicio en ejecución  
+```bash
+sudo systemctl stop actividad4       
+```  
+![permiso](imagenes/stop.jpeg)  
