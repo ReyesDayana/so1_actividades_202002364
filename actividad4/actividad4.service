@@ -1,0 +1,13 @@
+[Unit]
+Description=actividad4 Service
+After=network.target
+
+[Service]
+User= dayana
+WorkingDirectory=/home/dayana/Documentos/USAC/Nuevosemestre/SOPES1/so1_actividades_202002364/actividad4
+ExecStart=/home/dayana/Documentos/USAC/Nuevosemestre/SOPES1/so1_actividades_202002364/actividad4/actividad4.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
